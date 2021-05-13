@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+h3{
+  text-align: center;
+}
+label{
+  color:rgb(119, 119, 119);
+}
+#signUpForm{
+  width: 35%;
+  
+}
+#signInForm{
+  width: 35%;
+  display: none;
+}
+.proFile{
+  width: 35%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  background-color: rgb(247, 247, 247);
+  display: none;
+}
+.user{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 350px;
+padding-top: 20px;
+}
+.user>div{
+height: 2px;
+width: 130px;
+background-color: rgb(161, 161, 161);
+}
+img{
+  height:150px;
+  width: 25%;
+  border-radius: 50%;
+}
+#job,#email{
+  color: rgb(161, 161, 161);
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+}
+#name,#job{
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.invalid-feedback{
+  position: absolute;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  width: max-content;
+  padding: 5px;
+}
